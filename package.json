@@ -1,0 +1,39 @@
+{
+  "name": "Wikipedia-Search-App",
+  "version": "1.0.0",
+  "description": "Allows users to search wikipedia and view the results.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server",
+    "dev": "webpack -w & nodemon ./server",
+    "webpack": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaroleeC/Wikipedia-Search-App.git"
+  },
+  "keywords": [],
+  "author": "Karolee Carlson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaroleeC/Wikipedia-Search-App/issues"
+  },
+  "homepage": "https://github.com/KaroleeC/Wikipedia-Search-App#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.2",
+    "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {}
+}
