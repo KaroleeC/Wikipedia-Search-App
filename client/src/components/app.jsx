@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
-import Main from './main/main.jsx'
+import Main from './main/main.jsx';
+import SideMenu from './sideMenu/sideMenu.jsx';
 import './app.css';
 //after break make the border round
 class App extends React.Component{
@@ -37,6 +38,7 @@ class App extends React.Component{
   render() {
     return (
       <div>
+        < SideMenu />
         <div className="container">
           <p> Wkiki Search </p>
           <br/>
